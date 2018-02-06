@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <TextView
+            android:id="@+id/team"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+
+
+            tools:text="Manchester United" />
+
+    <TextView
+            android:id="@+id/played"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+
+
+            tools:text="29" />
+
+    <TextView
+            android:id="@+id/win"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+
+
+            tools:text="18"
+            android:layout_weight="0.44" />
+
+    <TextView
+            android:id="@+id/loss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+
+
+            tools:text="4"
+            android:layout_weight="0.17" />
+
+    <TextView
+            android:id="@+id/total_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            tools:text="59"
+            android:layout_weight="0.29" />
+
+
+
+
+
+</LinearLayout>
